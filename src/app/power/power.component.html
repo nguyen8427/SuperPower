@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="powerInput">Current Power Level</label>
+        <input type="text" min="1" max="100" class="form-control" placeholder="power level 1- 100" [(ngModel)]="level">
+
+      </div>
+
+    </div>
+  </div>
+  <div class="result">
+    <h4>Result</h4>
+    <div class="row ">
+      <app-batman [level]="level" class="col-sm-3"></app-batman>
+      <app-deadpool [level]="level" class=" col-sm-3"></app-deadpool>
+      <app-ironman [level]="level" class="col-sm-3"></app-ironman>
+      <app-thor [level]="level" class=" col-sm-3"></app-thor>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+    
+ 

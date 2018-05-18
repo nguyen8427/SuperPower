@@ -1,0 +1,10 @@
+<div class="deadPool container-fluid">
+  <p>Dead Pool</p>
+  <p>Power Level: {{newLevel}}</p>
+  <p *ngIf="newLevel > 1000 && newLevel <= 5000">Super!</p>
+  <p *ngIf="newLevel > 5000 && newLevel <= 20000">Incredible!</p>
+  <p *ngIf="newLevel > 20000">Unbeatable!</p>
+</div>
+
+
+
