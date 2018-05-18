@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Javascript
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
@@ -25,3 +26,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# SuperPower
+An Angular App that allows user to determined each Marvel character's power base on user input of the current power state
+
+App can be seen after ng serve and access localhost 4200
+>>>>>>> 0808bed1face3945fd80c40ef82ca3987835c09c
+# SuperPower
